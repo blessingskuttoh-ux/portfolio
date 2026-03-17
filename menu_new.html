@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karibu Palace - Menu</title>
+    <style>
+        :root{--accent:#6a0dad;--muted:#666}
+        body{font-family:Arial, Helvetica, sans-serif;margin:0;background:#f9f9fb;color:#222}
+        .header{background:var(--accent);color:#fff;padding:28px 16px;text-align:center}
+        .header p{margin:6px 0 0;opacity:.95}
+        .container{max-width:1100px;margin:24px auto;padding:0 16px}
+        h2{margin:8px 0 16px}
+        .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+        .card{background:#ffffff;border-radius:8px;overflow:hidden;border:1px solid #eee;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+        .card img{width:100%;height:160px;object-fit:cover;display:block}
+        .info{padding:12px}
+        .info h3{margin:0 0 6px;font-size:18px}
+        .info p{margin:0 0 8px;color:#555;font-size:14px}
+        .price{font-weight:700;color:var(--accent)}
+        .footer{padding:18px;text-align:center;color:var(--muted);font-size:14px}
+        a{color:var(--accent);text-decoration:none}
+        @media (min-width:900px){.card img{height:180px}}
+    </style>
+</head>
+<body style="background-color:rgb(128, 0, 70);color:rgb(255, 255, 255);">
+    <header class="header">
+        <h1>Karibu Palace</h1>
+        <p>Welcome — delicious meals served daily</p>
+    </header>
+    
+
+    <main class="container">
+        <section>
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+
+                <article class="card">
+                    <img src="download.jpg" alt="Grilled Chicken">
+                    <div class="info">
+                        <h3>Grilled Chicken</h3>
+                        <p>Juicy grilled chicken with house spices and seasonal sides.</p>
+                        <div class="price">500ksh</div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="curry.jpg" alt="Vegetable Curry">
+                    <div class="info">
+                        <h3>Vegetable Curry</h3>
+                        <p>Rich coconut curry with locally sourced vegetables.</p>
+                        <div class="price">400ksh</div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="beef.jpg" alt="Beef Stew">
+                    <div class="info">
+                        <h3>Beef Stew</h3>
+                        <p>Slow-cooked beef in a savory sauce, served with rice.</p>
+                        <div class="price">600ksh</div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="see.jpg" alt="Seafood Platter">
+                    <div class="info">
+                        <h3>Seafood Platter</h3>
+                        <p>A selection of grilled fish and shellfish with lemon butter.</p>
+                        <div class="price">1500ksh</div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="chapati.jpg" alt="chapati & beans">
+                    <div class="info">
+                        <h3>chapati & beans</h3>
+                        <p>Fresh mixed beans, cherry tomatoes, feta and vinaigrette.</p>
+                        <div class="price">300ksh</div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="dessert.jpg" alt="Dessert Platter">
+                    <div class="info">
+                        <h3>Dessert Platter</h3>
+                        <p>Assorted sweets — perfect to share.</p>
+                        <div class="price">600ksh</div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">See more on the <a href="index.html">homepage</a> or <a href="contact.html">contact us</a>.</footer>
+</body>
+</html>
